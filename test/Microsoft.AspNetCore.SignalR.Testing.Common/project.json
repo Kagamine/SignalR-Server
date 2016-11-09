@@ -5,9 +5,9 @@
   },
   "dependencies": {
     "Microsoft.AspNetCore.Server.IntegrationTesting": "0.2.0-*",
-    "Microsoft.Extensions.Logging": "1.1.0-*",
-    "Microsoft.Extensions.Logging.Console": "1.1.0-*",
-    "Microsoft.Extensions.PlatformAbstractions": "1.1.0-*",
+    "Microsoft.Extensions.Logging": "1.2.0-*",
+    "Microsoft.Extensions.Logging.Console": "1.2.0-*",
+    "Microsoft.Extensions.PlatformAbstractions": "1.2.0-*",
     "NETStandard.Library": "1.6.1-*"
   },
   "shared": "*.cs",

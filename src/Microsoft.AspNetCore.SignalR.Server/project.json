@@ -2,15 +2,17 @@
   "version": "0.2.0-*",
   "description": "Core server components for ASP.NET SignalR.",
   "dependencies": {
-    "Microsoft.AspNetCore.DataProtection": "1.1.0-*",
-    "Microsoft.AspNetCore.Hosting.Abstractions": "1.1.0-*",
-    "Microsoft.AspNetCore.Http.Extensions": "1.1.0-*",
-    "Microsoft.AspNetCore.SignalR.Messaging": "0.2.0-*",
-    "Microsoft.AspNetCore.SignalR.Sources": {
-      "version": "0.2.0-*",
-      "type": "build"
+    "Microsoft.AspNetCore.DataProtection": "1.2.0-*",
+    "Microsoft.AspNetCore.Hosting.Abstractions": "1.2.0-*",
+    "Microsoft.AspNetCore.Http.Extensions": "1.2.0-*",
+    "Microsoft.AspNetCore.SignalR.Messaging": {
+      "target": "project"
     },
-    "Microsoft.Extensions.DependencyModel": "1.1.0-*",
+    "Microsoft.AspNetCore.SignalR.Sources": {
+      "type": "build",
+      "target": "project"
+    },
+    "Microsoft.Extensions.DependencyModel": "1.2.0-*",
     "NETStandard.Library": "1.6.1-*",
     "Newtonsoft.Json": "9.0.1"
   },
